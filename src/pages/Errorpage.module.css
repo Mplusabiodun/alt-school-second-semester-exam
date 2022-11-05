@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 8em;
+}
+
+.heading {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.sorry {
+    font-size: 20px;
+    margin-bottom: 2.5em;
+}
+
+.empty {
+    height: 3.4em;
+    width: 80%;
+    border: 1px solid rgb(31, 112, 105);
+    margin-bottom: 2.5em;
+}
+
+.search {
+   padding: 0.8em 0 0 3em;
+   color: rgb(0, 0, 0, 0.5 );
+}
+
+.last a {
+    color: rgb(31, 112, 105);
+}
