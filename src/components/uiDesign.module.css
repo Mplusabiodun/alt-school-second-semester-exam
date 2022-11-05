@@ -54,3 +54,19 @@
   display: block;
   margin-top: 1rem;
 }
+
+@media screen and (max-width:500px) {
+
+  .cover {
+    width: 85%;
+    border-radius: 7px;
+    padding: 4rem 3rem;
+    margin-top: 6rem;
+  }
+
+  .buttons {
+    gap: 15px;
+    margin: 2rem 0;
+  }
+  
+}

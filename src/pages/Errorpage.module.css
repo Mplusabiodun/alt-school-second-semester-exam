@@ -31,3 +31,33 @@
 .last a {
     color: rgb(31, 112, 105);
 }
+
+@media screen and (max-width:500px) {
+
+.container {
+        margin: 2em;
+        text-align: center;
+    }
+    
+.heading {
+        font-size: 40px;
+        margin-top: 1.5em;
+        margin-bottom: 0.7em;
+    }
+
+.sorry {
+        font-size: 17px;
+        margin-bottom: 2em;
+    }
+
+.empty {
+        height: 3.2em;
+        width: 85%;
+        margin-bottom: 2em;
+    }
+
+.search {
+        padding: 0.8em 0 0 1em;
+     }
+    
+  }
